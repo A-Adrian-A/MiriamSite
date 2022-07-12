@@ -1,0 +1,5 @@
+:root{
+ --dark-grey: #454545;
+ --theme-red: #d82034;
+--theme-button:var(--theme-red)
+}

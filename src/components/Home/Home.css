@@ -1,0 +1,13 @@
+.home__about-finanzplanung {
+  display: grid;
+  grid-template-columns: 1fr 25vw;
+}
+
+.home__text {
+  margin-right: 10vw;
+  margin-left: 5vw;
+}
+
+.home__image {
+  width: 100%;
+}
