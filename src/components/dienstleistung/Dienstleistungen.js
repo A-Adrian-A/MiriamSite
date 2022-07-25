@@ -59,7 +59,7 @@ class Dienstleistungen extends Component {
                 <img className='cards__image' src={card.src} alt=''></img>
               </div>
               <div className='cards__text-container'>
-                <h2>{card.title}</h2>
+                <h2><Trans>{card.title}</Trans></h2>
                 {card.paragraphs.map((paragraph, index) => (
                   <p className='cards__text-paragraph'>{paragraph}</p>
                 ))}
