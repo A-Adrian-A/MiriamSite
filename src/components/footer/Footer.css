@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--dark-grey);
+}
+
+.footer__column-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  color:var(--light-grey);
+}
+
+.footer__column {
+  justify-self: center;
+}
+
+.footer__column_text {
+  margin-top: 0;
+  color: white;
+}

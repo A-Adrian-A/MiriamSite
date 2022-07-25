@@ -1,0 +1,29 @@
+.test__container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box1 {
+  box-sizing: content-box;
+  height: calc(25vw - 24px);
+  max-height: calc((var(--max-width) / 4) - 20px);
+  background-color: aqua;
+  margin: 10px;
+}
+
+.box2 {
+  position: relative;
+  top: -15%;
+  background-color: #fff;
+  width: 220px;
+  height: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.test__grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
