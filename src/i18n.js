@@ -2,26 +2,16 @@
 import i18n from 'i18next';
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from 'i18next-browser-languagedetector';
-import translationFR from './locales/fr/translation.json';
-import translationDE from './locales/de/translation.json';
+
+import I18NextHttpBackend from 'i18next-http-backend';
 
 i18n
+  .use(I18NextHttpBackend)
+  .use(LanguageDetector)
   .use(initReactI18next)
- .use(LanguageDetector)
   .init({
-    // we init with resources
-    resources: {
-      fr: {
-        translations: translationFR
-      },
-      de: {
-        translations: translationDE
-      }
-    },
     fallbackLng: 'de',
     debug: true,
-    ns: ['translations'],
-    defaultNS: 'translations',
     keySeparator: false,
     interpolation: {
       escapeValue: false,
