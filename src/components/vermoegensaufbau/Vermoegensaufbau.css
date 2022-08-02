@@ -1,0 +1,34 @@
+.eigenheim__title-image {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+}
+
+.eigenheim__title {
+  text-align: center;
+  margin-bottom: 2rem;
+   margin-top: 2rem
+}
+
+.eigenheim__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:4vw
+}
+
+.eigenheim__image-left {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+}
+
+.eigenheim__text
+{
+    hyphens: auto;
+  text-align: justify;
+}
+
+.eigenheim {
+  background-color: white;
+  padding: 4vw;
+}

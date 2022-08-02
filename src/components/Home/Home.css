@@ -1,3 +1,7 @@
+.home__border {
+  padding: 2rem;
+}
+
 .home__about-finanzplanung {
   display: grid;
   grid-template-columns: 1fr 1fr;

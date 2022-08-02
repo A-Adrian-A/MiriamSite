@@ -1,6 +1,6 @@
 import React from "react";
-import './Eigenheim.css'
-import eigenheim from "../../img/eigenheim/eigenheim.jpg"
+import './Vorsorge.css'
+import vorsorge from "../../img/vorsorge/vorsorge.jpg"
 import firstImage from "../../img/eigenheim/birgit-loit-sBjIRDC0H5Q-unsplash.jpg"
 import secondImage from "../../img/eigenheim/ian-macdonald-W8z6aiwfi1E-unsplash.jpg"
 import { useTranslation } from 'react-i18next';
@@ -8,12 +8,12 @@ import { useTranslation } from 'react-i18next';
 
 
 
-const Eigenheim = () => {
+const Vorsorge = () => {
   const { t, i18n } = useTranslation();
   return (
     <div className="eigenheim">
-      <img className="eigenheim__title-image" src={eigenheim}></img>
-      <h1 className="eigenheim__title">{t("Eigenheim")}</h1>
+      <img className="eigenheim__title-image" src={vorsorge}></img>
+      <h1 className="eigenheim__title">{t(Eigenheim)}</h1>
       <div className="eigenheim__grid">
         <div className="eigenheim__text">
           <h2 className="eigenheim__paragraph-title">{t("eigenheim_paragraph_1_title")}</h2>

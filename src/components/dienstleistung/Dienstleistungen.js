@@ -2,55 +2,57 @@ import React, { Component } from 'react';
 import { Trans } from 'react-i18next';
 import './Dienstleistungen.css';
 
-import vorsorge from '../../img/vorsorge.jpg';
-import eigenheim from '../../img/eigenheim.jpg';
-import versicherungen from '../../img/jamie-street-JtP_Dqtz6D8-unsplash.jpg';
-import vermögensaufbau from '../../img/vermögensaufbau2.jpg';
+import vorsorge from '../../img/vorsorge/vorsorge.jpg';
+import eigenheim from '../../img/eigenheim/eigenheim.jpg';
+import versicherungen from '../../img/versicherungen/versicherungen.jpg';
+import vermögensaufbau from '../../img/vermoegensaufbau/vermoegensaufbau.jpg';
+import { useTranslation } from 'react-i18next';
 
 const cards = [
   {
     title: 'Vorsorge',
     paragraphs: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      'Card_Vorsorge_paragraph1',
+      'Card_Vorsorge_paragraph2',
+      'Card_Vorsorge_paragraph3',
     ],
     src: vorsorge
   },
   {
     title: 'Versicherungen',
     paragraphs: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      'Card_Versicherungen_paragraph1',
+      'Card_Versicherungen_paragraph2',
+      'Card_Versicherungen_paragraph3',
     ],
     src: versicherungen
   }, {
     title: 'Eigenheim',
     paragraphs: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      'Card_Eigenheim_paragraph1',
+      'Card_Eigenheim_paragraph2',
+      'Card_Eigenheim_paragraph3',
     ],
     src: eigenheim
   },
   {
     title: 'Vermögensaufbau',
     paragraphs: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      'Card_Vermögensaufbau_paragraph1',
+      'Card_Vermögensaufbau_paragraph2',
+      'Card_Vermögensaufbau_paragraph3',
     ],
     src: vermögensaufbau
   }
 ]
 
-class Dienstleistungen extends Component {
-  render() {
+
+
+const Dienstleistungen =()=>{
+
+    const { t, i18n } = useTranslation();
     return (
-      <div className='Dienstleistungen'>
+      <div className='dienstleistungen'>
         <h1>Dienstleistungen</h1>
         <div className='cards__grid'>
           {cards.map((card, index) => (
@@ -59,9 +61,9 @@ class Dienstleistungen extends Component {
                 <img className='cards__image' src={card.src} alt=''></img>
               </div>
               <div className='cards__text-container'>
-                <h2><Trans>{card.title}</Trans></h2>
+                <h2>{t(card.title)}</h2>
                 {card.paragraphs.map((paragraph, index) => (
-                  <p className='cards__text-paragraph'>{paragraph}</p>
+                  <p className='cards__text-paragraph'>{t(paragraph)}</p>
                 ))}
 
               </div>
@@ -71,7 +73,8 @@ class Dienstleistungen extends Component {
         </div>
       </div>
     );
-  }
+  
+  
 }
 
 export default Dienstleistungen;

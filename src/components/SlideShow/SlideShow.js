@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import './SlideShow.css';
-import vorsorge from '../../img/vorsorge.jpg';
-import eigenheim from '../../img/eigenheim.jpg';
-import versicherungen from '../../img/jamie-street-JtP_Dqtz6D8-unsplash.jpg';
-import vermögensaufbau from '../../img/vermögensaufbau2.jpg';
+import vorsorge from '../../img/vorsorge/vorsorge.jpg';
+import eigenheim from '../../img/eigenheim/eigenheim.jpg';
+import versicherungen from '../../img/versicherungen/versicherungen.jpg';
+import vermögensaufbau from '../../img/vermoegensaufbau/vermoegensaufbau.jpg';
 import { ReactComponent as GoBack } from '../../icon/arrow_back.svg'
 import { ReactComponent as GoForward } from '../../icon/arrow_forward.svg'
 import Button from '../button/Button';

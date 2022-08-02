@@ -75,7 +75,7 @@ const Navigation = () => {
           <Link to="/home-owner"><Trans>Eigenheim</Trans></Link>
         </li>
         <li>
-          <Link to="/asset"><Trans>Vermögensaufbau</Trans></Link>
+          <Link to="/appreciation-of-assets"><Trans>Vermögensaufbau</Trans></Link>
         </li>
         <li>
           <Link to="/insurance"><Trans>Versicherungen</Trans></Link>

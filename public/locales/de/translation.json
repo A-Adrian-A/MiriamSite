@@ -5,7 +5,30 @@
   "Home": "Home",
   "Vorsorge": "Vorsorge",
   "Eigenheim": "Eigenheim",
+
   "Vermögensaufbau": "Vermögensaufbau",
   "Versicherungen": "Versicherungen",
-  "Warum Finanzplanung": "Warum Finanzplanung"
+
+  "Warum Finanzplanung": "Warum Finanzplanung",
+  "Warum_Finanzplanung_text_paragrph1": "Warum_Finanzplanung_text_paragrph1",
+
+  "Card_Vorsorge_paragraph1": "Card_Vorsorge_paragraph1",
+  "Card_Vorsorge_paragraph2": "Card_Vorsorge_paragraph2",
+  "Card_Vorsorge_paragraph3": "Card_Vorsorge_paragraph3",
+
+  "Card_Versicherungen_paragraph1": "Card_Versicherungen_paragraph1",
+  "Card_Versicherungen_paragraph2": "Card_Versicherungen_paragraph2",
+  "Card_Versicherungen_paragraph3": "Card_Versicherungen_paragraph3",
+
+  "Card_Eigenheim_paragraph1": "Card_Eigenheim_paragraph1",
+  "Card_Eigenheim_paragraph2": "Card_Eigenheim_paragraph2",
+  "Card_Eigenheim_paragraph3": "Card_Eigenheim_paragraph3",
+
+  "Card_Vermögensaufbau_paragraph1": "Card_Vermögensaufbau_paragraph1",
+  "Card_Vermögensaufbau_paragraph2": "Card_Vermögensaufbau_paragraph2",
+  "Card_Vermögensaufbau_paragraph3": "Card_Vermögensaufbau_paragraph3",
+
+  "Miriam über Finanzplanung": "Miriam über Finanzplanung",
+  "Miriam_über_finanzplanung_text":"Miriam_über_finanzplanung_text"
+
 }
