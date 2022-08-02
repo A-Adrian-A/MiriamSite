@@ -8,9 +8,13 @@
 
   "Vermögensaufbau": "Vermögensaufbau",
   "Versicherungen": "Versicherungen",
+  "Datenschutz": "Datenschutz",
 
   "Warum Finanzplanung": "Warum Finanzplanung",
-  "Warum_Finanzplanung_text_paragrph1": "Warum_Finanzplanung_text_paragrph1",
+  "Warum_Finanzplanung_text_paragraph_1": "Eine professionelle Finanzplanung bildet den Grundbaustein einer sorgenfreien Zukunft.",
+  "Warum_Finanzplanung_text_paragraph_2": "Dank der Erstellung eines klaren Budgets und Finanzplans, können Einnahmen und Ausgaben optimal aufeinander abgestimmt werden.",
+  "Warum_Finanzplanung_text_paragraph_3": "Die gemeinsame Analyse der individuellen Situation erlaubt die Planung zur Verwirklichung von Träumen und Zielen wie Eigenheim, Weltreise oder Familienplanung.",
+  "Warum_Finanzplanung_text_paragraph_4": "Entsprechend der persönlichen Bedürfnissen werden passende Finanzprodukte ausgewählt und zusammengestellt.",
 
   "Card_Vorsorge_paragraph1": "Card_Vorsorge_paragraph1",
   "Card_Vorsorge_paragraph2": "Card_Vorsorge_paragraph2",
@@ -29,6 +33,25 @@
   "Card_Vermögensaufbau_paragraph3": "Card_Vermögensaufbau_paragraph3",
 
   "Miriam über Finanzplanung": "Miriam über Finanzplanung",
-  "Miriam_über_finanzplanung_text":"Miriam_über_finanzplanung_text"
+  "Miriam_über_finanzplanung_text":"Miriam_über_finanzplanung_text",
 
+  "vorsorge_paragraph_0_title": "vorsorge_paragraph_0_title",
+  "vorsorge_paragraph_0_text": "vorsorge_paragraph_0_text",
+  "vorsorge_paragraph_1_title": "vorsorge_paragraph_1_title",
+  "vorsorge_paragraph_1_text": "vorsorge_paragraph_1_text",
+
+  "eigenheim_paragraph_0_title": "eigenheim_paragraph_0_title",
+  "eigenheim_paragraph_0_text": "eigenheim_paragraph_0_text",
+  "eigenheim_paragraph_1_title": "eigenheim_paragraph_1_title",
+  "eigenheim_paragraph_1_text": "eigenheim_paragraph_1_text",
+
+  "vermoegensaufbau_paragraph_0_title": "vermoegensaufbau_paragraph_0_title",
+  "vermoegensaufbau_paragraph_0_text": "vermoegensaufbau_paragraph_0_text",
+  "vermoegensaufbau_paragraph_1_title": "vermoegensaufbau_paragraph_1_title",
+  "vermoegensaufbau_paragraph_1_text": "vermoegensaufbau_paragraph_1_text",
+
+  "versicherungen_paragraph_0_title": "verischerungen_paragraph_0_title",
+  "versicherungen_paragraph_0_text": "verischerungen_paragraph_0_text",
+  "versicherungen_paragraph_1_title": "verischerungen_paragraph_1_title",
+  "versicherungen_paragraph_1_text": "verischerungen_paragraph_1_text"
 }

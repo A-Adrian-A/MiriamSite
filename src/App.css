@@ -30,3 +30,8 @@ ul {
 h1 {
   color: var(--theme-red);
 }
+
+p {
+  hyphens: auto; 
+	text-align: justify
+}

@@ -17,10 +17,22 @@ const Home = () => {
         <div className="home__text">
           <h1>{t("Warum Finanzplanung")}</h1>
           <p>
-          {t("Warum_Finanzplanung_text_paragrph1")}
+          {t("Warum_Finanzplanung_text_paragraph_1")}
+          </p>
+          <p>
+          {t("Warum_Finanzplanung_text_paragraph_2")}
+          </p>
+          <p>
+          {t("Warum_Finanzplanung_text_paragraph_3")}
+          </p>
+          <p>
+          {t("Warum_Finanzplanung_text_paragraph_4")}
           </p>
         </div>
+        
         <img className="home__about-finazplannung-image" alt='' src={frau_zeigt}></img>
+
+       
       </div>
       <Dienstleistungen></Dienstleistungen>
       <div className="home__miriam">
