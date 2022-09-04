@@ -1,0 +1,9 @@
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:4vw
+}
+
+.about-me__image {
+  width: 100%;
+}

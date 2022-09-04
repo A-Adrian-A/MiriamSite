@@ -7,32 +7,31 @@ import vermögensaufbau from '../../img/vermoegensaufbau/vermoegensaufbau.jpg';
 import { ReactComponent as GoBack } from '../../icon/arrow_back.svg'
 import { ReactComponent as GoForward } from '../../icon/arrow_forward.svg'
 import Button from '../button/Button';
-import { Trans } from 'react-i18next';
 
 const slides = [
   {
     button_text: 'Eigenheim',
     text: 'Eigenheim bla',
-    link: '/house',
+    link: '/home-owner',
     src: eigenheim,
   },
   {
     button_text: 'Vorsorge',
     text: 'Vorsorge bla',
-    link: '/house',
+    link: '/pension',
     src: vorsorge,
   },
   {
     button_text: 'Versicherungen',
     text_color: 'black',
     text: 'Versicherung bla',
-    link: '/house',
+    link: '/insurance',
     src: versicherungen,
   },
   {
     button_text: 'Vermögensaufbau',
     text: 'Vermögensaufbau bla',
-    link: '/house',
+    link: '/appreciation-of-assets',
     src: vermögensaufbau,
   },
 ];
@@ -94,7 +93,7 @@ const SlideShow = (props) => {
                 <div className='slide-show__text'
                   style={slide.text_color ? { color: slide.text_color } :{}}
                 >{slide.text}</div>
-                <Button text={slide.button_text } link='/house'></Button>
+                <Button text={slide.button_text } link={slide.link}></Button>
               </div>
             </div>
           </div>

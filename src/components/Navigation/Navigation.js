@@ -25,17 +25,17 @@ const Navigation = () => {
   const [dropdown, setDropdown] = useState(false);
   return (
     <div className='navigation'>
-      <img className='navigation__logo' src={logo} alt=""></img>
+      <Link to="/"><img className='navigation__logo' src={logo} alt="" ></img></Link>
       <div className='navigation__meta'>
         <ul className='navigation__meta-links '>
           <li className='navigation__meta-link'>
-            <Link to="/"><Trans>Über mich</Trans></Link>
+            <Link to="/about-me"><Trans>Über mich</Trans></Link>
           </li>
           <li className='navigation__meta-link'>
             <Link to="/faq"><Trans>FAQ</Trans></Link>
           </li>
           <li className='navigation__meta-link'>
-            <Link to="/Contact"><Trans>Kontakt</Trans></Link>
+            <a href="mailto:miriam.adam@swisslife-select.ch"><Trans>Kontakt</Trans></a>
           </li>
         </ul>
 

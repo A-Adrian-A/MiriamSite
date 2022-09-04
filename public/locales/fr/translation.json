@@ -1,12 +1,12 @@
 {
-  "Über mich" : "De Moi",
-  "FAQ" : "QF",
-  "Kontakt" : "Contacter",
-  "Home" : "Accueil",
-  "Vorsorge" : "Prévoyance",
-  "Eigenheim" : "Maison",
-  "Vermögensaufbau" : "Constitution de patrimoine",
-  "Versicherungen" : "Assurance",
+  "Über mich": "De Moi",
+  "FAQ": "QF",
+  "Kontakt": "Contacter",
+  "Home": "Accueil",
+  "Vorsorge": "Prévoyance",
+  "Eigenheim": "Maison",
+  "Vermögensaufbau": "Constitution de patrimoine",
+  "Versicherungen": "Assurance",
 
   "Datenschutz": "bla",
 
@@ -30,7 +30,7 @@
   "Card_Vermögensaufbau_paragraph3": "Card_Vermögensaufbau_paragraph3",
 
   "Miriam über Finanzplanung": "Miriam über Finanzplanung",
-  "Miriam_über_finanzplanung_text":"Miriam_über_finanzplanung_text",
+  "Miriam_über_finanzplanung_text": "Miriam_über_finanzplanung_text",
 
   "vorsorge_paragraph_0_title": "vorsorge_paragraph_0_title",
   "vorsorge_paragraph_0_text": "vorsorge_paragraph_0_text",
@@ -50,5 +50,8 @@
   "versicherungen_paragraph_0_title": "verischerungen_paragraph_0_title",
   "versicherungen_paragraph_0_text": "verischerungen_paragraph_0_text",
   "versicherungen_paragraph_1_title": "verischerungen_paragraph_1_title",
-  "versicherungen_paragraph_1_text": "verischerungen_paragraph_1_text"
+  "versicherungen_paragraph_1_text": "verischerungen_paragraph_1_text",
+
+  "Ueber_mich_title": "Über mich",
+  "Ueber_mich_text": "Ueber_mich_text"
 }

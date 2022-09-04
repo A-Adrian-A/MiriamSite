@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Trans } from 'react-i18next';
 import './Button.css';
+import { Link } from 'react-router-dom';
 class Button extends Component {
   render() {
     return (
-      <a className='button' href={this.props.link} target='_blank' rel='noreferrer'>
-        <Trans>{this.props.text}</Trans>
-      </a>
+        <div className='button'>
+        <Link to={this.props.link}><Trans>{this.props.text}</Trans></Link>
+      </div>
     );
   }
 }

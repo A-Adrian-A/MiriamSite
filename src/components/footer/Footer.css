@@ -19,3 +19,7 @@
   margin-top: 0;
   color: white;
 }
+
+.footer a:visited {
+   color: white;
+}

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Trans } from 'react-i18next';
+import React from 'react';
+
 import './Dienstleistungen.css';
 
 import vorsorge from '../../img/vorsorge/vorsorge.jpg';
@@ -50,7 +50,7 @@ const cards = [
 
 const Dienstleistungen =()=>{
 
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     return (
       <div className='dienstleistungen'>
         <h1>Dienstleistungen</h1>

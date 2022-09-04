@@ -4,12 +4,11 @@ import { useTranslation } from 'react-i18next';
 
 
 const ZPattern = (param) => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const prefix = param.page.title.toLowerCase()
-  { console.log(param.page.image) }
   return (
     <div className="zpattern">
-      <img className="zpattern__title-image" src={param.page.image}></img>
+      <img className="zpattern__title-image" src={param.page.image} alt=''></img>
       <h1 className="zpattern__title">{t(param.page.title)}</h1>
 
       <div className="zpattern__grid">

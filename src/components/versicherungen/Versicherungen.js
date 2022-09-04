@@ -12,7 +12,7 @@ const Versicherung = () => {
   const { t, i18n } = useTranslation();
   return (
     <div className="versicherungen">
-    {/*   <img className="versicherungen__title-image" src={versicherungen}></img>
+      {/*   <img className="versicherungen__title-image" src={versicherungen}></img>
       <h1 className="versicherungen__title">{t(versicherungen)}</h1>
       <div className="versicherungen__grid">
         <div className="versicherungen__text">

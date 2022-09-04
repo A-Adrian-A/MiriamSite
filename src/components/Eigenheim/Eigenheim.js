@@ -2,7 +2,7 @@ import React from "react";
 import './Eigenheim.css'
 import eigenheim from "../../img/eigenheim/eigenheim.jpg"
 import firstImage from "../../img/eigenheim/birgit-loit-sBjIRDC0H5Q-unsplash.jpg"
-import secondImage from "../../img/eigenheim/ian-macdonald-W8z6aiwfi1E-unsplash.jpg"
+import secondImage from "../../img/eigenheim/eigenheim4.jpg"
 import { useTranslation } from 'react-i18next';
 
 
@@ -20,7 +20,7 @@ const Eigenheim = () => {
           <p>{t("eigenheim_paragraph_1_text")}</p>
         </div>
         <img className="eigenheim__image-left" alt='' src={firstImage}></img>
-        
+
         <img className="eigenheim__image-left" alt='' src={secondImage}></img>
         <div className="eigenheim__text">
           <h2 className="eigenheim__paragraph-title">{t("eigenheim_paragraph_2_title")}</h2>
