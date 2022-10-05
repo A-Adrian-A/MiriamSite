@@ -53,7 +53,7 @@ const Dienstleistungen =()=>{
     const { t } = useTranslation();
     return (
       <div className='dienstleistungen'>
-        <h1>Dienstleistungen</h1>
+        <h1>{t("Dienstleistungen")}</h1>
         <div className='cards__grid'>
           {cards.map((card, index) => (
             <div className='cards__card'>
