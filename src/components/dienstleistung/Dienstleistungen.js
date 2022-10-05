@@ -12,35 +12,35 @@ const cards = [
   {
     title: 'Vorsorge',
     paragraphs: [
-      'Card_Vorsorge_paragraph1',
-      'Card_Vorsorge_paragraph2',
-      'Card_Vorsorge_paragraph3',
+      'Card_Vorsorge_paragraph_1',
+      'Card_Vorsorge_paragraph_2',
+      'Card_Vorsorge_paragraph_3',
     ],
     src: vorsorge
   },
   {
     title: 'Versicherungen',
     paragraphs: [
-      'Card_Versicherungen_paragraph1',
-      'Card_Versicherungen_paragraph2',
-      'Card_Versicherungen_paragraph3',
+      'Card_Versicherungen_paragraph_1',
+      'Card_Versicherungen_paragraph_2',
+      'Card_Versicherungen_paragraph_3',
     ],
     src: versicherungen
   }, {
     title: 'Eigenheim',
     paragraphs: [
-      'Card_Eigenheim_paragraph1',
-      'Card_Eigenheim_paragraph2',
-      'Card_Eigenheim_paragraph3',
+      'Card_Eigenheim_paragraph_1',
+      'Card_Eigenheim_paragraph_2',
+      'Card_Eigenheim_paragraph_3',
     ],
     src: eigenheim
   },
   {
     title: 'Vermögensaufbau',
     paragraphs: [
-      'Card_Vermögensaufbau_paragraph1',
-      'Card_Vermögensaufbau_paragraph2',
-      'Card_Vermögensaufbau_paragraph3',
+      'Card_Vermögensaufbau_paragraph_1',
+      'Card_Vermögensaufbau_paragraph_2',
+      'Card_Vermögensaufbau_paragraph_3',
     ],
     src: vermögensaufbau
   }

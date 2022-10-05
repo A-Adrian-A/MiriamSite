@@ -111,11 +111,15 @@ const SlideShow = (props) => {
 
       <div className='slide-show__button right'
         onClick={goRight}>
+          <div className='slide-show__button__svg'>
         <GoForward fill='white'></GoForward>
+        </div>
       </div>
       <div className='slide-show__button left'
         onClick={goLeft}>
+          <div className='slide-show__button__svg'>
         <GoBack fill='white'></GoBack>
+        </div>
       </div>
 
 

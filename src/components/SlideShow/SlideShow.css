@@ -1,3 +1,8 @@
+:root {
+  --slide-button-size: 70px;
+}
+
+
 .slide-show {
   position: relative;
   overflow: hidden;
@@ -40,9 +45,11 @@
 
 .slide-show__button {
   position: absolute;
-  top: calc(50% - (48px + 20px + 15px)/2);
+  top: calc(50% - ( var(--slide-button-size) + 20px + 15px)/2);
   background-color: var(--theme-red);
   color: white;
+  width: var(--slide-button-size);
+  height: var(--slide-button-size);
 }
 
 .slide-show__description-center {
@@ -61,4 +68,10 @@
 .slide-show__text {
   margin-bottom: 10px;
   color: white;
+}
+
+
+.slide-show__button__svg{
+  position: relative;
+  top: calc((var(--slide-button-size) - 48px) / 2);
 }

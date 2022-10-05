@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import './colors.css'
 import Home from './components/Home/Home';
-import Navigation from './components/navigation/Navigation';
+import Navigation from './components/Navigation/Navigation';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/footer/Footer';
 import ZPattern from './components/z_pattern/ZPattern';
