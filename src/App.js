@@ -39,7 +39,7 @@ const pages = {
     images: [versicherungen_1, versicherungen_2, versicherungen_1]
   },
   vermoegensaufbau: {
-    title: "Vermoegensaufbau",
+    title: "Vermögensaufbau",
     image: vermoegensaufbau,
     images: [vermoegensaufbau_1, vermoegensaufbau_2, vermoegensaufbau_1]
   },
