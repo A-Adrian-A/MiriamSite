@@ -7,7 +7,7 @@
 
 .footer__column-title {
   font-size: 1.2rem;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
   color:var(--light-grey);
 }
 
@@ -22,4 +22,8 @@
 
 .footer a:visited {
    color: white;
+}
+
+.footer__column_link {
+  margin-bottom: 0.3rem;
 }

@@ -65,12 +65,6 @@
   text-align: center;
 }
 
-.slide-show__text {
-  margin-bottom: 10px;
-  color: white;
-}
-
-
 .slide-show__button__svg{
   position: relative;
   top: calc((var(--slide-button-size) - 48px) / 2);

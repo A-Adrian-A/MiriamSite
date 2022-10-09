@@ -11,26 +11,21 @@ import Button from '../button/Button';
 const slides = [
   {
     button_text: 'Eigenheim',
-    text: 'Eigenheim bla',
     link: '/home-owner',
     src: eigenheim,
   },
   {
     button_text: 'Vorsorge',
-    text: 'Vorsorge bla',
     link: '/pension',
     src: vorsorge,
   },
   {
     button_text: 'Versicherungen',
-    text_color: 'black',
-    text: 'Versicherung bla',
     link: '/insurance',
     src: versicherungen,
   },
   {
     button_text: 'Vermögensaufbau',
-    text: 'Vermögensaufbau bla',
     link: '/appreciation-of-assets',
     src: vermögensaufbau,
   },
@@ -90,9 +85,6 @@ const SlideShow = (props) => {
             <div className='slide-show__description'
               style={{ left: `${50 + index * 100}%` }}>
               <div className='slide-show__description-center'>
-                <div className='slide-show__text'
-                  style={slide.text_color ? { color: slide.text_color } :{}}
-                >{slide.text}</div>
                 <Button text={slide.button_text } link={slide.link}></Button>
               </div>
             </div>
