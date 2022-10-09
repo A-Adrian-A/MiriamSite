@@ -85,7 +85,7 @@ const SlideShow = (props) => {
             <div className='slide-show__description'
               style={{ left: `${50 + index * 100}%` }}>
               <div className='slide-show__description-center'>
-                <Button text={slide.button_text } link={slide.link}></Button>
+                <Button text={slide.button_text} link={slide.link}></Button>
               </div>
             </div>
           </div>
@@ -103,14 +103,14 @@ const SlideShow = (props) => {
 
       <div className='slide-show__button right'
         onClick={goRight}>
-          <div className='slide-show__button__svg'>
-        <GoForward fill='white'></GoForward>
+        <div className='slide-show__button__svg'>
+          <GoForward fill='white'></GoForward>
         </div>
       </div>
-      <div className='slide-show__button left'
+      <div className='slide-show__button '
         onClick={goLeft}>
-          <div className='slide-show__button__svg'>
-        <GoBack fill='white'></GoBack>
+        <div className='slide-show__button__svg left'>
+          <GoBack fill='white'></GoBack>
         </div>
       </div>
 

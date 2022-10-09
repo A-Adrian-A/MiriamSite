@@ -1,5 +1,5 @@
 :root {
-  --slide-button-size: 70px;
+  --slide-button-size: 55px;
 }
 
 
@@ -48,7 +48,7 @@
   top: calc(50% - ( var(--slide-button-size) + 20px + 15px)/2);
   background-color: var(--theme-red);
   color: white;
-  width: var(--slide-button-size);
+  width: 48px;
   height: var(--slide-button-size);
 }
 
@@ -68,4 +68,5 @@
 .slide-show__button__svg{
   position: relative;
   top: calc((var(--slide-button-size) - 48px) / 2);
+  
 }
