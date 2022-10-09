@@ -29,12 +29,9 @@ const ZPattern = (param) => {
               </div>
               <img className="zpattern__image" alt='' src={image}></img>
             </Fragment>
-        )
-        )
-        }
-
+        ))}
       </div>
-    </div >
+    </div>
   );
 };
 

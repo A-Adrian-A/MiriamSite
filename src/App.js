@@ -2,8 +2,8 @@
 import './App.css';
 import React from 'react';
 import './colors.css'
-import Home from './components/Home/Home';
-import Navigation from './components/Navigation/Navigation';
+import Home from './components/home/Home';
+import Navigation from './components/navigation/Navigation';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/footer/Footer';
 import ZPattern from './components/z_pattern/ZPattern';
@@ -36,17 +36,17 @@ const pages = {
   versicherungen: {
     title: "Versicherungen",
     image: versicherungen,
-    images: [versicherungen_1, versicherungen_2]
+    images: [versicherungen_1, versicherungen_2, versicherungen_1]
   },
   vermoegensaufbau: {
     title: "Vermoegensaufbau",
     image: vermoegensaufbau,
-    images: [vermoegensaufbau_1, vermoegensaufbau_2]
+    images: [vermoegensaufbau_1, vermoegensaufbau_2, vermoegensaufbau_1]
   },
   vorsorge: {
     title: "Vorsorge",
     image: vorsorge,
-    images: [vorsorge_1, vorsorge_2]
+    images: [vorsorge_1, vorsorge_2, vorsorge_1]
   }
 }
 
